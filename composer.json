@@ -1,5 +1,21 @@
 {
+    "name": "schplay/graphdat-api-php",
+    "description": "",
+    "authors": [
+        {
+            "name": "David Myers",
+            "email": "david.d.myers@gmail.com"
+        }
+    ],
     "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
         "guzzlehttp/guzzle": "~4"
-    }
+    },
+    "autoload": {
+        "psr-0": {
+            "Schplay\\GraphdatApiPhp": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
